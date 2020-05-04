@@ -1,4 +1,4 @@
-# Curso de Programação Paralela
+# [Curso de Programação Paralela](slides/0_plano.pdf)
 
 ## OBJETIVOS GERAIS 
 
@@ -14,13 +14,13 @@ O que é computação paralela e como ela é usada; Conceitos e terminologia ass
 
 ## DURAÇÃO DOS TÓPICOS
 
-Horas | Tópico       | Semana
------ | ------------ | ------
-6 | Introdução  | 1a 
-6 | Conceitos e terminologia | 2a
-16 | Arquiteturas paralelas | 3a e 4a
-24 | Modelos e paradigmas de programação paralelos | 5a-7a
-8 | Projetando programas paralelos | 8a
+Horas | Tópico       | Semana | Slides
+----- | ------------ | ------ | ------
+6 | Introdução  | 1a | [[1](slides/1_intro.pdf)]
+6 | Conceitos e terminologia | 2a | 
+16 | Arquiteturas paralelas | 3a e 4a | 
+24 | Modelos e paradigmas de programação paralelos | 5a-7a | 
+8 | Projetando programas paralelos | 8a | 
 
 ## OBJETIVOS ESPECÍFICOS:
 Ao final do curso os participantes deverão ser capazes de:
