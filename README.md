@@ -17,8 +17,8 @@ O que é computação paralela e como ela é usada; Conceitos e terminologia ass
 Horas | Tópico       | Semana | Slides
 ----- | ------------ | ------ | ------
 6 | Introdução  | 1a | [[1](slides/1_intro.pdf)]
-6 | Conceitos e terminologia | 2a | 
-16 | Arquiteturas paralelas | 3a e 4a | 
+6 | Conceitos e terminologia | 2a | [[2](slides/2_conce.pdf)]
+16 | Arquiteturas paralelas | 3a e 4a | [[3](slides/3_fpga.pdf) [3](slides/3_simd.pdf)]
 24 | Modelos e paradigmas de programação paralelos | 5a-7a | 
 8 | Projetando programas paralelos | 8a | 
 
