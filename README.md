@@ -19,7 +19,7 @@ Horas | Tópico       | Semana | Slides
 6 | Introdução  | 1a | [[1](slides/1_intro.pdf)]
 6 | Conceitos e terminologia | 2a | [[2](slides/2_conce.pdf)]
 16 | Arquiteturas paralelas | 3a e 4a | [[3 FPGAs](slides/3_fpga.pdf)] [[3 SIMD](slides/3_simd.pdf)] [[4 GPUs](slides/4_gpus.pdf)] 
-24 | Modelos e paradigmas de programação paralelos | 5a-7a | 
+24 | Modelos e paradigmas de programação paralelos | 5a-7a | [[5 OpenMP](slides/5_openmp.pdf)] [[6 OpenCL](slides/6_opencl.pdf)]  
 8 | Projetando programas paralelos | 8a | 
 
 ## OBJETIVOS ESPECÍFICOS:
