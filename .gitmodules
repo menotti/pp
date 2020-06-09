@@ -1,0 +1,9 @@
+[submodule "tutorials/playground-opencl"]
+	path = tutorials/playground-opencl
+	url = https://github.com/menotti/playground-eb8w0m4e.git
+[submodule "tutorials/playground-sse-avx"]
+	path = tutorials/playground-sse-avx
+	url = https://github.com/menotti/playground-41d1904q.git
+[submodule "tutorials/playground-sycl"]
+	path = tutorials/playground-sycl
+	url = https://github.com/menotti/playground-iv41x1or.git
