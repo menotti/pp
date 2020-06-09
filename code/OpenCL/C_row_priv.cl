@@ -1,4 +1,3 @@
-
 __kernel void mmul(
     const int N,
     __global float* A,
