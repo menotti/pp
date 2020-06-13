@@ -52,4 +52,5 @@ Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferra
 ## REFERÊNCIAS
 
 - [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/)
-- Além desta referência principal, cada aula/slides/tutorial trás suas próprias referências. 
+- [Intel(r) oneAPI Toolkits (Beta)](https://software.intel.com/oneAPI/)
+- Além desta referência principal, cada aula/slides/tutorial traz suas próprias referências. 

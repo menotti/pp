@@ -15,7 +15,7 @@ Este tutorial contém informações básicas sobre como usar a oneAPI localmente
 
 Este material é baseado no que está disponível no repositório da Intel (https://github.com/intel/BaseKit-code-samples.git)
 
-A edição foi feita usando Jupyter Notebooks (`oneAPI.ipynb`), a versão Markdown (`oneAPI.md`) é exportada a partir desta e seus links podem não funcionar corretamente. 
+A edição deste documento foi feita usando Jupyter Notebooks (`oneAPI.ipynb`) e depois foi exportada uma versão Markdown (`oneAPI.md`) para o GitHub. Os links só irão funcionar em seus respectivos ambientes.
 
 ## Principais referências
 
@@ -298,7 +298,7 @@ Note na saída acima que a configuração dos nós pode mudar de acordo com a fu
 
 [Voltar ao início](#sec-top)
 
-<a id="sec-sycl"></a>
+<a id="sec-oneapi"></a>
 # SYCL & DPC++ & oneAPI
 O objetivo resumido desta API é oferecer uma interface de programação independente da plataforma. 
 
