@@ -19,7 +19,7 @@ Horas | Tópico       | Semana | Slides
 6 | Introdução  | 1a | [[1](slides/1_intro.pdf)]
 6 | Conceitos e terminologia | 2a | [[2](slides/2_conce.pdf)]
 16 | Arquiteturas paralelas | 3a e 4a | [[3 FPGAs](slides/3_fpga.pdf)] [[3 SIMD](slides/3_simd.pdf)] [[4 GPUs](slides/4_gpus.pdf)] 
-24 | Modelos e paradigmas de programação paralelos | 5a-7a | [[5 OpenMP](slides/5_openmp.pdf)] [[6 OpenCL](slides/6_opencl.pdf)]  
+24 | Modelos e paradigmas de programação paralelos | 5a-7a | [[5 OpenMP](slides/5_openmp.pdf)] [[6 OpenCL](slides/6_opencl.pdf)] [[7 SYCL](slides/7_sycl.pdf)] 
 8 | Projetando programas paralelos | 8a | 
 
 ## OBJETIVOS ESPECÍFICOS:
@@ -40,4 +40,16 @@ Ao final do curso os participantes deverão ser capazes de:
 ## RECURSOS A SEREM UTILIZADOS:
 Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferramentas usadas, ambientes de desenvolvimento C/C++ em qualquer sistema operacional. 
 
-## [Playlist no YouTube](https://www.youtube.com/playlist?list=PLezQJVF86FUulrCIovlqO-cbs-Uw-LtIo)
+## [Playlist das aulas no YouTube](https://www.youtube.com/playlist?list=PLezQJVF86FUulrCIovlqO-cbs-Uw-LtIo)
+
+## Práticas 
+
+- [SIMD](https://tech.io/playgrounds/53858/vetorizacao-sse-avx/)
+- [OpenMP](https://coliru.stacked-crooked.com/a/32edaa2b12958d2c)
+- [OpenCL](https://ava.ead.ufscar.br/mod/url/view.php?id=991552)
+- [SYCL](https://ava.ead.ufscar.br/mod/url/view.php?id=992895)
+
+## REFERÊNCIAS
+
+- [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/)
+- Além desta referência principal, cada aula/slides/tutorial trás suas próprias referências. 
