@@ -15,7 +15,8 @@ O que é computação paralela e como ela é usada; Conceitos e terminologia ass
 ## INSCRIÇÕES
 
 - Para oferta de 04/05/2020	a 26/06/2020 (encerradas)
-- [Para oferta de 09/11/2020 a 16/01/2021](https://forms.gle/9AU3WBUeaVSKUtkn7)
+- Para oferta de 09/11/2020 a 16/01/2021 (canceladas)
+- [Para oferta de 03/05/2021 a 14/08/2021](https://forms.gle/9AU3WBUeaVSKUtkn7)
 
 ## DURAÇÃO DOS TÓPICOS
 
