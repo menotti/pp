@@ -13,10 +13,11 @@ O que é computação paralela e como ela é usada; Conceitos e terminologia ass
 60 horas
 
 ## INSCRIÇÕES
-
+Para o público interno, no próprio [Siga](https://sistemas.ufscar.br/siga/), para o externo, no link abaixo:
 - Para oferta de 04/05/2020	a 26/06/2020 (encerradas)
-- Para oferta de 09/11/2020 a 16/01/2021 (canceladas)
-- [Para oferta de 03/05/2021 a 14/08/2021](https://forms.gle/9AU3WBUeaVSKUtkn7)
+- Para oferta de 09/11/2020 a 16/01/2021 (cancelada)
+- Para oferta de 03/05/2021 a 14/08/2021 (cancelada)
+- [Para oferta de 07/11/2022 a 17/02/2023](https://forms.gle/6kpo4tyDwung9UkD6)
 
 ## DURAÇÃO DOS TÓPICOS
 
@@ -25,8 +26,8 @@ Horas | Tópico       | Semana | Slides
 6 | Introdução  | 1a | [[1](slides/1_intro.pdf)]
 6 | Conceitos e terminologia | 2a | [[2](slides/2_conce.pdf)]
 16 | Arquiteturas paralelas | 3a e 4a | [[3 FPGAs](slides/3_fpga.pdf)] [[3 SIMD](slides/3_simd.pdf)] [[4 GPUs](slides/4_gpus.pdf)] 
-24 | Modelos e paradigmas de programação paralelos | 5a-7a | [[5 OpenMP](slides/5_openmp.pdf)] [[6 OpenCL](slides/6_opencl.pdf)] [[7 SYCL](slides/7_sycl.pdf)] 
-8 | Projetando programas paralelos | 8a | 
+24 | Modelos e paradigmas de programação paralelos | 5a-10a | [[5 OpenMP](slides/5_openmp.pdf)] [[6 OpenCL](slides/6_opencl.pdf)] [[7 SYCL](slides/7_sycl.pdf)] 
+8 | Projetando programas paralelos | 11a-12a | 
 
 ## OBJETIVOS ESPECÍFICOS:
 Ao final do curso os participantes deverão ser capazes de:
@@ -41,7 +42,7 @@ Ao final do curso os participantes deverão ser capazes de:
 - Realização de exercícios para consolidação dos conhecimentos adquiridos. 
 
 ## ATIVIDADES DOS ALUNOS:
-- Os alunos deverão assistir às aulas, ler o material disponibilizado, participar nos fóruns de discussão, responder aos questionários e implementar os programas solicitados, incluindo um projeto final. 
+- Os alunos deverão assistir às aulas, ler o material disponibilizado, participar nos fóruns de discussão, responder aos questionários e implementar os programas solicitados, incluindo um projeto final. Apresentação presencial de um projeto ao final do curso.
 
 ## RECURSOS A SEREM UTILIZADOS:
 Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferramentas usadas, ambientes de desenvolvimento C/C++ em qualquer sistema operacional. 
