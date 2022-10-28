@@ -53,11 +53,13 @@ Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferra
 
 - [SIMD](https://tech.io/playgrounds/53858/vetorizacao-sse-avx/)
 - [OpenMP](https://coliru.stacked-crooked.com/a/32edaa2b12958d2c)
-- [OpenCL](https://ava.ead.ufscar.br/mod/url/view.php?id=991552)
-- [SYCL](https://ava.ead.ufscar.br/mod/url/view.php?id=992895)
+- [OpenCL](https://tech.io/playgrounds/54224/introducao-ao-opencl/)
+- [SYCL](https://tech.io/playgrounds/53635/introducao-ao-sycl/)
+- [CUDA](https://colab.research.google.com/drive/17bOMeBJTtUD1Tdpq_suov1A9uCy55RaQ?usp=sharing)
 
 ## REFERÊNCIAS
 
 - [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/)
 - [Intel(r) oneAPI Toolkits (Beta)](https://software.intel.com/oneAPI/) [[DevCloud]](oneAPI.md)
+- [CUDA Toolkit Documentation v11.8.0](https://docs.nvidia.com/cuda/)
 - Além desta referência principal, cada aula/slides/tutorial traz suas próprias referências. 
