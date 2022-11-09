@@ -45,7 +45,7 @@ Ao final do curso os participantes deverão ser capazes de:
 - Os alunos deverão assistir às aulas, ler o material disponibilizado, participar nos fóruns de discussão, responder aos questionários e implementar os programas solicitados, incluindo um projeto final. Apresentação presencial de um projeto ao final do curso.
 
 ## RECURSOS A SEREM UTILIZADOS:
-Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferramentas usadas, ambientes de desenvolvimento C/C++ em qualquer sistema operacional. 
+Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferramentas usadas, ambientes de desenvolvimento C/C++ em qualquer sistema operacional...
 
 ## [Playlist das aulas no YouTube](https://www.youtube.com/playlist?list=PLezQJVF86FUulrCIovlqO-cbs-Uw-LtIo)
 
