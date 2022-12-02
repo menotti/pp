@@ -27,7 +27,7 @@ Horas | Tópico       | Semana | Slides
 4 | Conceitos e terminologia | 2a | [[2](slides/2_conce.pdf)]
 4 | Arquiteturas paralelas | 3a | [[3 FPGAs](slides/3_fpga.pdf)] [[3 SIMD](slides/3_simd.pdf)] 
 2 | Arquiteturas paralelas | 4a | [[4 GPUs](slides/4_gpus.pdf)] 
-8 | Modelos e paradigmas | 5a-6a | [[4 CUDA](slides/4_cuda.pdf)] 
+8 | Modelos e paradigmas | 5a-6a | [[4 CUDA C/C++](slides/4_cuda_c.pdf)] [[4 CUDA Python](slides/4_cuda_py.pdf)] 
 8 | Modelos e paradigmas | 7a-8a | [[5 OpenMP](slides/5_openmp.pdf)] 
 4 | Modelos e paradigmas | 9a | [[6 OpenCL](slides/6_opencl.pdf)]
 10 | Modelos e paradigmas | 10a-12a | [[7 SYCL](slides/7_sycl.pdf)]
@@ -60,7 +60,7 @@ Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferra
 - [OpenMP](https://coliru.stacked-crooked.com/a/32edaa2b12958d2c)
 - [OpenCL](https://tech.io/playgrounds/54224/introducao-ao-opencl/)
 - [SYCL](https://tech.io/playgrounds/53635/introducao-ao-sycl/)
-- [CUDA](https://colab.research.google.com/drive/17bOMeBJTtUD1Tdpq_suov1A9uCy55RaQ?usp=sharing)
+- [CUDA](https://drive.google.com/drive/folders/1X05I6Zh6U6WRZATyTaAx_p_zwvz1eeQW?usp=sharing)
 
 ## REFERÊNCIAS
 
