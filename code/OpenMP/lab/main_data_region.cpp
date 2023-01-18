@@ -1,17 +1,18 @@
-
 #include <omp.h>
 #include <stdio.h>
 
 constexpr int ARRAY_SIZE = 256;
+float x[ARRAY_SIZE], y[ARRAY_SIZE];
 
 void init1(float *x, int N) {
   for (int i = 0; i < N; i++) x[i] = 1.0;
 }
+
 void init2(float *x, int N) {
   for (int i = 0; i < N; i++) x[i] = 2.0;
 }
+
 int main() {
-  float x[ARRAY_SIZE], y[ARRAY_SIZE];
   double tb, te;
   int correct_count = 0;
 
@@ -33,3 +34,4 @@ int main() {
 
   printf("Test: %s\n", (correct_count == ARRAY_SIZE) ? "PASSED!" : "Failed");
 }
+

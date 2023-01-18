@@ -9,11 +9,11 @@
 
 constexpr int ARRAY_SIZE = 256;
 constexpr int NUM_BLOCKS = 9;
+float x[ARRAY_SIZE], y[ARRAY_SIZE];
 
 int main(int argc, char *argv[]) {
   int i, ib, is_cpu = 1, num_teams = 0;
   double tstart, tstop;
-  float x[ARRAY_SIZE], y[ARRAY_SIZE];
 
   float a = 1.0f;
   float tolerance = 0.01f;
@@ -45,3 +45,4 @@ int main(int argc, char *argv[]) {
     }
   printf("Test: %s\n", (correct_count == ARRAY_SIZE) ? "PASSED!" : "Failed");
 }
+
