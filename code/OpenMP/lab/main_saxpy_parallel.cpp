@@ -6,6 +6,7 @@
 
 #include <omp.h>
 #include <stdio.h>
+#include <math.h>
 
 constexpr int ARRAY_SIZE = 256;
 constexpr int NUM_BLOCKS = 9;
