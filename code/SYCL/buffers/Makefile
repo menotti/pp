@@ -1,12 +1,12 @@
-CXX = dpcpp
-CXXFLAGS = -O2 -g
+CXX = icpx
+CXXFLAGS = -fsycl -O2 -g
 LDFLAGS = -lOpenCL -lsycl
 EXE_NAME = main
 SOURCES = main.cpp
 
-all: main
+all: main run clean
 
-main:
+main: $(SOURCES)
 	$(CXX) $(CXXFLAGS) -o $(EXE_NAME) $(SOURCES) $(LDFLAGS)
 
 run: 
