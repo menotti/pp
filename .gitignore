@@ -37,3 +37,8 @@
 # Jupyter Notebooks
 .ipynb_checkpoints
 .vscode/c_cpp_properties.json
+code/SYCL/.vscode/*
+code/SYCL/mandelbrot/.svn/*
+code/SYCL/DiscreteCosineTransform/.svn/*
+code/SYCL/DiscreteCosineTransform/res/**
+code/SYCL/DiscreteCosineTransform/msvs/**
