@@ -283,7 +283,7 @@ int ReadProcessWrite(char* input, char* output) {
   std::cout << "Run all tests...\n\n";
   for (int j = 0; j < num_tests; ++j) {
 #endif
-    std::cout << "Start image processing with offloading to GPU...\n";
+    std::cout << "Start image processing with offloading to CPU...\n";
     {
       TimeInterval t;
       ProcessImage(indata, outdata, image_width, image_height);

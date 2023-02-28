@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:int="http://www.w3.org/2001/XMLSchema#int" xmlns:null="http://www.intel.com/2009/BagSchema#null" xmlns:unsignedLong="http://www.w3.org/2001/XMLSchema#unsignedLong">
+ <entry path="grouper" unsignedLong:size="0">
+  <indexFields>
+   <field path="instruction_mix_data_attr_callsite"/>
+   <field path="instruction_mix_data_attr_function_instance"/>
+   <field path="instruction_mix_data_attr_instruction"/>
+   <field path="instruction_mix_data_attr_instructionType"/>
+   <field path="instruction_mix_data_scale"/>
+   <emptyField path="instruction_mix_data_attr_callsite" null:defaultValue=""/>
+   <emptyField path="instruction_mix_data_attr_function_instance" null:defaultValue=""/>
+   <emptyField path="instruction_mix_data_attr_instruction" null:defaultValue=""/>
+   <emptyField path="instruction_mix_data_attr_instructionType" null:defaultValue=""/>
+   <emptyField path="instruction_mix_data_scale" int:defaultValue="1"/>
+  </indexFields>
+  <int64Fields/>
+  <doubleFields>
+   <field path="instruction_mix_data_count"/>
+   <emptyField path="instruction_mix_data_count" int:defaultValue="0"/>
+  </doubleFields>
+ </entry>
+</bag>

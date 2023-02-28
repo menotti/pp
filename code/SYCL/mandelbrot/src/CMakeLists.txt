@@ -13,8 +13,9 @@ target_link_libraries(mandelbrot_usm OpenCL sycl)
 add_custom_target(run_usm ./mandelbrot_usm)
 
 add_custom_target(run-profile
-  COMMAND advisor --collect=roofline --project-dir=./adv -- ./mandelbrot_usm
-  COMMAND advisor --report=roofline --project-dir=./adv --report-output=./../../mandel_roofline.html
+  COMMAND advisor --collect=roofline --flop --project-dir=./adv -- ./mandelbrot_usm
+  # direciona o arquivo para a pasta SYCL                
+  COMMAND advisor --report=roofline --project-dir=./adv --report-output=./../../../mandel_roofline.html
   DEPENDS mandelbrot_usm
   COMMENT "Running Intel Advisor on MandelBrot_USM"
 )

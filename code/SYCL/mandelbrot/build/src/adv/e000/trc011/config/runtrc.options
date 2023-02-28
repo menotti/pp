@@ -1,0 +1,13 @@
+-r
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/trc011
+-quiet
+-cs-file
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--jit-profiling
+--target-gpu=none
+--
+./mandelbrot_usm

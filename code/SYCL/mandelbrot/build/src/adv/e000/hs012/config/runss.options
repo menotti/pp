@@ -1,0 +1,17 @@
+-r
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/hs012
+-quiet
+--mrte-mode=auto
+--follow-child
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--itt-config=frame,task,event,counter,model
+--stackwalk=offline
+--stack-unwind-limit=8388608
+--mrte-type=java,python
+--type=cpu:stack
+--opencl-trace-mode=default
+--
+./mandelbrot_usm

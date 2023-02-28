@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/main.cpp
+chrono
+-
+iomanip
+-
+iostream
+-
+CL/sycl.hpp
+-
+dpc_common.hpp
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/dpc_common.hpp
+mandel.hpp
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/mandel.hpp
+
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/mandel.hpp
+complex
+-
+exception
+-
+iomanip
+-
+iostream
+-
+stb/stb_image.h
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/stb/stb_image.h
+stb/stb_image_write.h
+/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/src/stb/stb_image_write.h
+

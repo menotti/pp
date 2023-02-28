@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2023/02/28 12:40:46</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/trc011/trc011.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/mandelbrot_usm</arg>
+  <arg>2107320</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/mandelbrot_usm</arg>
+  <arg>0x400000</arg>
+  <arg>0x51f4ef</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x7fb19429b000</arg>
+  <arg>0x7fb1942ca18f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffdadbeb000</arg>
+  <arg>0x7ffdadbeba3b</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so.1</arg>
+  <arg>0x7fb17db13000</arg>
+  <arg>0x7fb17db2187b</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libsycl.so.6</arg>
+  <arg>0x7fb17d7ce000</arg>
+  <arg>0x7fb17dab2a8f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libstdc++.so.6</arg>
+  <arg>0x7fb17d4b9000</arg>
+  <arg>0x7fb17d69a7ff</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <arg>0x7fb17d2f6000</arg>
+  <arg>0x7fb17d44410f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libgcc_s.so.1</arg>
+  <arg>0x7fb17d2db000</arg>
+  <arg>0x7fb17d2f5447</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libdl.so.2</arg>
+  <arg>0x7fb17d2d5000</arg>
+  <arg>0x7fb17d2da10f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <arg>0x7fb17d0a7000</arg>
+  <arg>0x7fb17d29865f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libsvml.so</arg>
+  <arg>0x7fb17ba9b000</arg>
+  <arg>0x7fb17d0a6d87</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libirng.so</arg>
+  <arg>0x7fb17b731000</arg>
+  <arg>0x7fb17ba9ad17</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libimf.so</arg>
+  <arg>0x7fb17b34c000</arg>
+  <arg>0x7fb17b7305df</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libintlc.so.5</arg>
+  <arg>0x7fb17b2d9000</arg>
+  <arg>0x7fb17b34be37</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libpthread.so.0</arg>
+  <arg>0x7fb17b2b6000</arg>
+  <arg>0x7fb17b2d8477</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libpi_opencl.so</arg>
+  <arg>0x7fb17516f000</arg>
+  <arg>0x7fb1751b930f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:40:59 2023</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libintelocl_emu.so</arg>
+  <arg>0x7fb174303000</arg>
+  <arg>0x7fb174958c19</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libtask_executor_emu.so.2022.15.12.0</arg>
+  <arg>0x7fb17418c000</arg>
+  <arg>0x7fb1742daa2f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcl_logger_emu.so.2022.15.12.0</arg>
+  <arg>0x7fb174060000</arg>
+  <arg>0x7fb17418b29f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="27" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libz.so.1</arg>
+  <arg>0x7fb173f71000</arg>
+  <arg>0x7fb173f8c0b7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="28" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/librt.so.1</arg>
+  <arg>0x7fb173f67000</arg>
+  <arg>0x7fb173f70bdf</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="29" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/tbb/2021.8.0/env/../lib/intel64/gcc4.8/libtbb.so.12</arg>
+  <arg>0x7fb173ca9000</arg>
+  <arg>0x7fb173f203bf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="30" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/tbb/2021.8.0/env/../lib/intel64/gcc4.8/libtbbmalloc.so.2</arg>
+  <arg>0x7fb173a4d000</arg>
+  <arg>0x7fb173ca817f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="31" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/advisor/2023.0.0/lib64/runtime/libittnotify.so</arg>
+  <arg>0x7fb16ff2e000</arg>
+  <arg>0x7fb17013a65f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="32" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcpu_device_emu.so.2022.15.12.0</arg>
+  <arg>0x7fb16fa1f000</arg>
+  <arg>0x7fb16fb90c4f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="33" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/oclfpga/host/linux64/lib/libalteracl.so</arg>
+  <arg>0x7fb16a9ee000</arg>
+  <arg>0x7fb16ef5406f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:00 2023</timestamp>
+</msg>
+<msg id="34" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/oclfpga/host/linux64/lib/libelf.so.0</arg>
+  <arg>0x7fb16a7d8000</arg>
+  <arg>0x7fb16a9edb0f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="35" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/oclfpga/host/linux64/lib/libalteracl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="36" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/oclfpga/host/linux64/lib/libelf.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="37" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libintelocl.so</arg>
+  <arg>0x7fb16e8c0000</arg>
+  <arg>0x7fb16ef15c09</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="38" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libtask_executor.so.2022.15.12.0</arg>
+  <arg>0x7fb16e771000</arg>
+  <arg>0x7fb16e8bfa1f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="39" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcl_logger.so.2022.15.12.0</arg>
+  <arg>0x7fb16e645000</arg>
+  <arg>0x7fb16e77029f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="40" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcpu_device.so.2022.15.12.0</arg>
+  <arg>0x7fb16ce2d000</arg>
+  <arg>0x7fb16cf9ec3f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:01 2023</timestamp>
+</msg>
+<msg id="41" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libOclCpuBackEnd.so.2022.15.12.0</arg>
+  <arg>0x7fb16349e000</arg>
+  <arg>0x7fb1695703a9</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:03 2023</timestamp>
+</msg>
+<msg id="42" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/__ocl_svml_z0.so</arg>
+  <arg>0x7fb15e730000</arg>
+  <arg>0x7fb15f74702f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:06 2023</timestamp>
+</msg>
+<msg id="43" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/advisor/2023.0.0/lib64/libpinjitprofiling.so</arg>
+  <arg>0x7fb14b9d3000</arg>
+  <arg>0x7fb14b9d700f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:07 2023</timestamp>
+</msg>
+<msg id="44" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>e9596aabf808e94b</arg>
+  <arg>0x7fb14c161000</arg>
+  <arg>0x7fb14c19d4d2</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:07 2023</timestamp>
+</msg>
+<msg id="45" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libclang_compiler.so.2022.15.12.0</arg>
+  <arg>0x7fb1313bb000</arg>
+  <arg>0x7fb1325c2617</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:08 2023</timestamp>
+</msg>
+<msg id="46" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcommon_clang.so.2022.15.12.0</arg>
+  <arg>0x7fb109485000</arg>
+  <arg>0x7fb113fff49f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:10 2023</timestamp>
+</msg>
+<msg id="47" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/hs012/data.0/../archive/binaries/f9dc191c6d67f8ec/f9dc191c6d67f8ec</arg>
+  <arg>0x7fb0b956f000</arg>
+  <arg>0x7fb0b95710ad</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:37 2023</timestamp>
+</msg>
+<msg id="48" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/__ocl_svml_z0.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:39 2023</timestamp>
+</msg>
+<msg id="49" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/advisor/2023.0.0/lib64/libpinjitprofiling.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="50" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/mandelbrot_usm</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="51" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="52" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="53" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libOpenCL.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="54" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libsycl.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="55" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libstdc++.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="56" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="57" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="58" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="59" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="60" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libsvml.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="61" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libirng.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="62" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libimf.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="63" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/compiler/lib/intel64_lin/libintlc.so.5</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="64" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="65" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/libpi_opencl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="66" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libintelocl_emu.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="67" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libtask_executor_emu.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="68" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcl_logger_emu.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="69" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libz.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="70" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/librt.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="71" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/tbb/2021.8.0/env/../lib/intel64/gcc4.8/libtbb.so.12</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="72" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/tbb/2021.8.0/env/../lib/intel64/gcc4.8/libtbbmalloc.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="73" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/advisor/2023.0.0/lib64/runtime/libittnotify.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="74" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcpu_device_emu.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="75" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libintelocl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="76" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libtask_executor.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="77" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcl_logger.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="78" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcpu_device.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="79" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libOclCpuBackEnd.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="80" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>DynamicCodeBin</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="81" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>e9596aabf808e94b</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="82" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libclang_compiler.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="83" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/lib/x64/libcommon_clang.so.2022.15.12.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="84" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f9dc191c6d67f8ec</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="85" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/mandelbrot_usm</arg>
+  <arg>2107320</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Feb 28 12:41:40 2023</timestamp>
+</msg>
+<msg id="86" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>139</arg>
+</msg>
+<msg id="87" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/u187015/about_ACIEPE/pp/code/SYCL/mandelbrot/build/src/adv/e000/trc011/trc011.advixe</arg>
+</msg>
+<msg id="88" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="89" tool="runtool">
+  <type>log-end</type>
+  <arg>2023/02/28 12:41:43</arg>
+</msg>
+
+</log>
+

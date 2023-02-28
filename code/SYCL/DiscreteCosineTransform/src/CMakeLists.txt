@@ -1,20 +1,19 @@
 # precisamos modificar o CMAkeLists para adicionar um novo target: "run-profile"
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++17 -fsycl")
+if(PERF_NUM)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -g -fsycl -std=c++17 -D PERF_NUM")
+message (STATUS "target will be built for performance tabulation")
+else()
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsycl -std=c++17")
+endif()
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS}")
-
-add_executable(mandelbrot main.cpp)
-target_link_libraries(mandelbrot OpenCL sycl)
-add_custom_target(run ./mandelbrot)
-
-add_executable(mandelbrot_usm main.cpp)
-target_compile_definitions(mandelbrot_usm PRIVATE MANDELBROT_USM)
-target_link_libraries(mandelbrot_usm OpenCL sycl)
-add_custom_target(run_usm ./mandelbrot_usm)
+add_executable (dct DCT.cpp)
+target_link_libraries(dct OpenCL sycl)
+file(COPY ../res/willyriver.bmp DESTINATION .)
+add_custom_target (run ./dct willyriver.bmp willyriver_processed.bmp)
 
 add_custom_target(run-profile
-  COMMAND advisor --collect=roofline --project-dir=./adv -- ./mandelbrot_usm
-  COMMAND advisor --report=roofline --project-dir=./adv --report-output=./../../mandel_roofline.html
-  DEPENDS mandelbrot_usm
-  COMMENT "Running Intel Advisor on MandelBrot_USM"
-)
+  COMMAND advisor --collect=roofline --project-dir=./adv --  ./dct willyriver.bmp willyriver_processed.bmp
+  COMMAND advisor --report=roofline --project-dir=./adv --report-output=./../../../dct_roofline.html
+  DEPENDS dct
+  COMMENT "Running Intel Advisor on dct")
