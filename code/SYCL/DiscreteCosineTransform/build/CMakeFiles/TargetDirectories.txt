@@ -1,7 +1,0 @@
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/CMakeFiles/rebuild_cache.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/CMakeFiles/edit_cache.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/src/CMakeFiles/rebuild_cache.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/src/CMakeFiles/run-profile.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/src/CMakeFiles/run.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/src/CMakeFiles/edit_cache.dir
-/home/u187015/about_ACIEPE/pp/code/SYCL/DiscreteCosineTransform/build/src/CMakeFiles/dct.dir

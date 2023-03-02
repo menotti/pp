@@ -1,1 +1,0 @@
-/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/bin/icpx   -fsycl -std=c++17 -O2 -g -DNDEBUG   CMakeFiles/dct.dir/DCT.cpp.o  -o dct  -lOpenCL -lsycl 

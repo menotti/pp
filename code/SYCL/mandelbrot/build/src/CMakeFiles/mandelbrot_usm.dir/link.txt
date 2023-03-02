@@ -1,1 +1,0 @@
-/glob/development-tools/versions/oneapi/2023.0.1/oneapi/compiler/2023.0.0/linux/bin/icpx   -g -std=c++17 -fsycl -O2 -g -DNDEBUG   CMakeFiles/mandelbrot_usm.dir/main.cpp.o  -o mandelbrot_usm  -lOpenCL -lsycl 
