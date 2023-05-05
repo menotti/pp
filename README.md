@@ -18,6 +18,7 @@ Para o público interno, no próprio [Siga](https://sistemas.ufscar.br/siga/), p
 - Para oferta de 09/11/2020 a 16/01/2021 (cancelada)
 - Para oferta de 03/05/2021 a 14/08/2021 (cancelada)
 - Para oferta de 07/11/2022 a 17/02/2023 (encerradas: 23112.029725/2022-31)
+- Para oferta de 08/05/2023 e 09/09/2023 ([inscrições](https://forms.gle/TREPdueYAGJmxAPx5))
 
 ## DURAÇÃO DOS TÓPICOS
 
