@@ -18,7 +18,7 @@ Para o público interno, no próprio [Siga](https://sistemas.ufscar.br/siga/), p
 - Para oferta de 09/11/2020 a 16/01/2021 (cancelada)
 - Para oferta de 03/05/2021 a 14/08/2021 (cancelada)
 - Para oferta de 07/11/2022 a 17/02/2023 (encerradas: 23112.029725/2022-31)
-- Para oferta de 08/05/2023 e 09/09/2023 ([inscrições](https://forms.gle/TREPdueYAGJmxAPx5))
+- Para oferta de 08/05/2023 e 09/09/2023 (encerradas: 23112.004922/2023-29)
 
 ## DURAÇÃO DOS TÓPICOS
 
@@ -57,7 +57,7 @@ Ambiente virtual de aprendizado, Vídeo-aulas, textos e documentação das ferra
 
 ## Práticas 
 
-- [SIMD](https://tech.io/playgrounds/53858/vetorizacao-sse-avx/)
+- [SIMD](https://github.com/menotti/pp/blob/master/tutorials/Vetoriza%C3%A7%C3%A3o_SSE_%26_AVX.ipynb)
 - [OpenMP](https://coliru.stacked-crooked.com/a/32edaa2b12958d2c)
 - [OpenCL](https://tech.io/playgrounds/54224/introducao-ao-opencl/)
 - [SYCL](https://tech.io/playgrounds/53635/introducao-ao-sycl/)
